@@ -34,7 +34,7 @@ const BlogPostForm = ({onSubmit, initialValue}) => {
         onPress={() => {
           onSubmit(title, content)
         }}>
-        <Text style={styles.textButtonStyle}>Create</Text>
+        <Text style={styles.textButtonStyle}>Save this Post</Text>
       </TouchableOpacity>
     </View>
   )
